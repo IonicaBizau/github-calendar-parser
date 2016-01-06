@@ -1,17 +1,17 @@
-# parse-github-calendar-svg [![Support this project][donate-now]][paypal-donations]
+# github-calendar-parser [![Support this project][donate-now]][paypal-donations]
 
 Parses the GitHub contributions calendar SVG code into JSON.
 
 ## Installation
 
 ```sh
-$ npm i --save parse-github-calendar-svg
+$ npm i --save github-calendar-parser
 ```
 
 ## Example
 
 ```js
-const parse = require("parse-github-calendar-svg");
+const parse = require("github-calendar-parser");
 
 var svg = `<svg width="721" height="110" class="js-calendar-graph-svg">
   <g transform="translate(20, 20)">

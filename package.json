@@ -1,5 +1,5 @@
 {
-  "name": "parse-github-calendar-svg",
+  "name": "github-calendar-parser",
   "version": "1.0.0",
   "description": "Parses the GitHub contributions calendar SVG code into JSON.",
   "main": "lib/index.js",
@@ -17,12 +17,12 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IonicaBizau/parse-github-calendar-svg.git"
+    "url": "git+https://github.com/IonicaBizau/github-calendar-parser.git"
   },
   "bugs": {
-    "url": "https://github.com/IonicaBizau/parse-github-calendar-svg/issues"
+    "url": "https://github.com/IonicaBizau/github-calendar-parser/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/parse-github-calendar-svg#readme",
+  "homepage": "https://github.com/IonicaBizau/github-calendar-parser#readme",
   "keywords": [
     "github",
     "json",

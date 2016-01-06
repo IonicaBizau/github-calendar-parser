@@ -59,6 +59,6 @@ Contributions are more than welcome!
 
 Thanks! :sweat_smile:
 
-[1]: https://github.com/IonicaBizau/parse-github-calendar-svg/issues
+[1]: https://github.com/IonicaBizau/github-calendar-parser/issues
 
 [2]: https://github.com/IonicaBizau/code-style
