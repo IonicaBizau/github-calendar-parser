@@ -9,12 +9,26 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "read-utf8": "^1.2.0"
-  },
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "MIT",
   "dependencies": {
     "github-calendar-legend": "^1.0.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IonicaBizau/parse-github-calendar-svg.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/parse-github-calendar-svg/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/parse-github-calendar-svg#readme",
+  "keywords": [
+    "github",
+    "json",
+    "contributions",
+    "calendar",
+    "parser",
+    "svg"
+  ]
 }
