@@ -1,0 +1,20 @@
+{
+  "name": "parse-github-calendar-svg",
+  "version": "1.0.0",
+  "description": "Parses the GitHub contributions calendar SVG code into JSON.",
+  "main": "lib/index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "read-utf8": "^1.2.0"
+  },
+  "dependencies": {
+    "github-calendar-legend": "^1.0.0"
+  }
+}
