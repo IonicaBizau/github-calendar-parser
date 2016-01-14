@@ -1,6 +1,6 @@
 {
   "name": "github-calendar-parser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Parses the GitHub contributions calendar SVG code into JSON.",
   "main": "lib/index.js",
   "directories": {
