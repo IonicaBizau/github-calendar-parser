@@ -13,8 +13,8 @@ var svg = `<svg width="721" height="110" class="js-calendar-graph-svg">
           <rect class="day" width="11" height="11" y="13" fill="#8cc665" data-count="27" data-date="2015-01-05"/>
           <rect class="day" width="11" height="11" y="26" fill="#8cc665" data-count="27" data-date="2015-01-06"/>
           <rect class="day" width="11" height="11" y="39" fill="#44a340" data-count="57" data-date="2015-01-07"/>
-          <rect class="day" width="11" height="11" y="52" fill="#8cc665" data-count="27" data-date="2015-01-08"/>
-          <rect class="day" width="11" height="11" y="65" fill="#8cc665" data-count="0" data-date="2015-01-09"/>
+          <rect class="day" width="11" height="11" y="52" fill="#8cc665" data-count="0" data-date="2015-01-08"/>
+          <rect class="day" width="11" height="11" y="65" fill="#8cc665" data-count="3" data-date="2015-01-09"/>
           <rect class="day" width="11" height="11" y="78" fill="#d6e685" data-count="2" data-date="2015-01-10"/>
       </g>
   </g>
