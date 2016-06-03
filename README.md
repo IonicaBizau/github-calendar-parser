@@ -32,8 +32,8 @@ var svg = `<svg width="721" height="110" class="js-calendar-graph-svg">
           <rect class="day" width="11" height="11" y="13" fill="#8cc665" data-count="27" data-date="2015-01-05"/>
           <rect class="day" width="11" height="11" y="26" fill="#8cc665" data-count="27" data-date="2015-01-06"/>
           <rect class="day" width="11" height="11" y="39" fill="#44a340" data-count="57" data-date="2015-01-07"/>
-          <rect class="day" width="11" height="11" y="52" fill="#8cc665" data-count="27" data-date="2015-01-08"/>
-          <rect class="day" width="11" height="11" y="65" fill="#8cc665" data-count="32" data-date="2015-01-09"/>
+          <rect class="day" width="11" height="11" y="52" fill="#8cc665" data-count="0" data-date="2015-01-08"/>
+          <rect class="day" width="11" height="11" y="65" fill="#8cc665" data-count="3" data-date="2015-01-09"/>
           <rect class="day" width="11" height="11" y="78" fill="#d6e685" data-count="2" data-date="2015-01-10"/>
       </g>
   </g>
@@ -78,13 +78,16 @@ Parses the SVG input (as string).
 - **Object** An object containing:
  - `last_year` (Number): The total contributions in the last year.
  - `longest_streak` (Number): The longest streak.
+ - `longest_streak_range` (Array): An array of two date objects representing the date range.
  - `current_streak` (Number): The current streak.
+ - `current_streak_range` (Array): An array of two date objects representing the date range.
  - `days` (Array): An array of day objects:
    - `fill` (String): The hex color.
    - `date` (Date): The day date.
    - `count` (Number): The number of commits.
    - `level` (Number): A number between 0 and 4 (inclusive) representing the contribution level (more commits, higher value).
  - `weeks` (Array): The day objects grouped by weeks (arrays).
+ - `last_contributed` (Date): The last contribution date.
 
 
 
