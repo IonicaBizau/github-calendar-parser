@@ -41,28 +41,23 @@ var svg = `<svg width="721" height="110" class="js-calendar-graph-svg">
 
 console.log(parse(svg));
 // =>
-// { last_year: 318,
-//   longest_streak: 11,
-//   current_streak: 11,
+// { last_year: 262,
+//   longest_streak: 9,
+//   longest_streak_range: [ 2014-12-31T00:00:00.000Z, 2015-01-07T00:00:00.000Z ],
+//   current_streak: 2,
+//   current_streak_range: [ 2015-01-09T00:00:00.000Z, 2015-01-10T00:00:00.000Z ],
 //   weeks: [ [ [Object], [Object], [Object], [Object] ] ],
 //   days:
 //    [ { fill: '#1e6823',
-//        date: Wed Dec 31 2014 02:00:00 GMT+0200 (EET),
+//        date: 2014-12-31T00:00:00.000Z,
 //        count: 78,
 //        level: 4 },
-//      { fill: '#d6e685',
-//        date: Thu Jan 01 2015 02:00:00 GMT+0200 (EET),
-//        count: 6,
-//        level: 1 },
-//      { fill: '#d6e685',
-//        date: Fri Jan 02 2015 02:00:00 GMT+0200 (EET),
-//        count: 1,
-//        level: 1 },
 //      ...
 //      { fill: '#d6e685',
-//        date: Sat Jan 10 2015 02:00:00 GMT+0200 (EET),
+//        date: 2015-01-10T00:00:00.000Z,
 //        count: 2,
-//        level: 1 } ] }
+//        level: 1 } ],
+//   last_contributed: 2015-01-10T00:00:00.000Z }
 ```
 
 ## :memo: Documentation
@@ -82,10 +77,10 @@ Parses the SVG input (as string).
  - `current_streak` (Number): The current streak.
  - `current_streak_range` (Array): An array of two date objects representing the date range.
  - `days` (Array): An array of day objects:
-   - `fill` (String): The hex color.
-   - `date` (Date): The day date.
-   - `count` (Number): The number of commits.
-   - `level` (Number): A number between 0 and 4 (inclusive) representing the contribution level (more commits, higher value).
+      - `fill` (String): The hex color.
+      - `date` (Date): The day date.
+      - `count` (Number): The number of commits.
+      - `level` (Number): A number between 0 and 4 (inclusive) representing the contribution level (more commits, higher value).
  - `weeks` (Array): The day objects grouped by weeks (arrays).
  - `last_contributed` (Date): The last contribution date.
 
