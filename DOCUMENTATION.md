@@ -6,6 +6,7 @@ You can see below the API reference of this module.
 Parses the SVG input (as string).
 
 #### Params
+
 - **String** `input`: The SVG code of the contributions calendar.
 
 #### Return
